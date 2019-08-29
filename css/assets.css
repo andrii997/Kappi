@@ -1,0 +1,145 @@
+* {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	color: #000;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+body {
+	font-family: 'EB Garamond', serif;
+	overflow-x: hidden;
+}
+/* 500, 500i, 700, 700i */
+
+
+/* Typography */
+
+h1 {
+	font-size: 96px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 72px;
+	font-weight: bold;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.subtitle {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+
+/* Buttons */
+
+a.button,
+.button-send {
+	background: linear-gradient(95.99deg, #E0B352 5.62%, #B17B2F 21.36%, #AF7A2A 37.11%, #BB8B2C 53.86%, #C39530 70.12%, #D0A23D 85.35%, #E0B452 99.07%);
+	border-radius: 25px;
+	letter-spacing: 0.13em;
+	font-style: normal;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 18px;
+	-moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box; 
+ box-sizing: border-box;
+ text-decoration: none;
+ border: none;
+}
+
+a.button:hover {
+	padding-right: 15px;
+	transition: .2s;
+	background: linear-gradient(95.99deg, #E0B352 5.62%, #B17B2F 21.36%, #AF7A2A 37.11%, #BB8B2C 53.86%, #C39530 70.12%, #D0A23D 85.35%, #E0B452 99.07%);
+}
+
+a.button:hover > img {
+	margin-left: 5px;
+	transition: .2s;
+}
+
+/* Кнопка отправить */
+.button-send {
+	padding: 13px 57px;
+}
+
+.button-send:hover {
+	background: none;
+	color: #B07A2C;
+	box-shadow: 0 0 0 1px #BA8636;
+	text-decoration: none;
+}
+
+/* Узнать больше */
+a.link {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+	color: #BA8636;
+}
+
+a.link > img {
+	margin-left: 8px;
+	display: inline-block;
+}
+
+a.link:hover {
+	text-decoration: none;
+}
+
+a.link:hover > img {
+	margin-left: 13px;
+	transition: .2s;
+}
+
+
+@media (max-width: 768px) {
+
+ h1 {
+ 	font-size: 64px;
+ }
+
+ h2 {
+ 	font-size: 48px;
+ }
+
+ .title {
+ 	font-size: 24px;
+ }
+
+ .subtitle {
+ 	font-size: 18px;
+ }
+
+ p {
+ 	font-size: 14px;
+ }
+
+ a.button {
+ 	font-size: 14px;
+ }
+ a.button-send {
+	padding: 6px 40px;
+}
+
+}

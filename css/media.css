@@ -1,0 +1,387 @@
+@media (max-width: 1200px) {
+	.modern-production h2 {
+		line-height: 72px;
+	}
+	.about-company {
+		background: url(../img/bg/about-company-mobile.png) no-repeat center right;
+	}
+	.slider-bottle {
+		padding-top: 0;
+	}
+	.about-company {
+		height: 1000px;
+	}
+	.pagingInfo {
+    bottom: 100px;
+  }
+	.slider-process .slick-next:before {
+	left: 0;
+	top: -50px;
+}
+
+.slider-process .slick-prev:before {
+	left: 0;
+	top: -50px;
+}
+	.bung1,
+	.bung2,
+	.bung3 {
+		display: none;
+	}
+	.slider-bottle .bottles-small {
+		right: -40px;
+	}
+
+}
+
+@media (max-width: 992px) {
+	.modern-production h2 {
+		font-size: 62px;
+
+	}
+	.slider-bottle .bottles-small {
+		right: -90px;
+	}
+		.pagingInfo {
+		font-size: 58px;
+  bottom: 50px;
+  padding: 8px 35px;
+  line-height: 42px;
+	}
+	footer button {
+		margin-bottom: 200px;
+	}
+	form#order {
+		padding: 50px;
+	}
+	.section-top {
+		height: 1130px;
+	}
+	.section-top .logo {
+		display: none;
+	}
+	.section-top .logo-mobile {
+		display: block;
+	}
+	.section-top .container-logo {
+		margin-bottom: 50px;
+	}
+	.section-top h1 {
+		font-size: 72px;
+		line-height: 68px;
+		font-size: 64px;
+	}
+	.about-company {
+		background: none;
+	}
+		.slick-prev:before {
+	 left: 0;
+	}
+
+	.slick-next:before {
+	 left: 0;
+	}
+	.my-dots li {
+		margin: 0 30px;
+	}
+	.about-company {
+		height: 800px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	img.bottles-small-mobile {
+    position: absolute;
+    right: 40px;
+}
+	.section-top {
+		padding-top: 24px;
+		height: 970px;
+		background: url(../img/bg/section-top-mobile.jpg) no-repeat center top;
+	}
+	.section-top .container-logo {
+		margin-bottom: 56px;
+	}
+	.section-top .logo {
+		display: none;
+	}
+	.section-top h1 {
+		margin-bottom: 32px;
+	} 
+	.section-top .title {
+		line-height: 31px;
+		font-size: 24px;
+		margin-bottom: 100px;
+	}
+	.section-top .logo-mobile {
+		display: block;
+	}
+	.differences-block:last-child {
+		margin-bottom: 100px;
+	}
+	.differences a.button {
+		float: inherit;
+	}
+
+	.differences p {
+		font-size: 14px;
+	}
+
+	footer {
+		padding-bottom: 0;
+		margin-top: -200px;
+		background: url(../img/bg/footer.png) no-repeat center bottom;
+	}
+	footer .subtitle {
+		margin-bottom: 80px;
+	}
+
+	footer form {
+		max-width: 360px;
+	}
+
+	footer input {
+		padding: 7px 24px;
+		margin-bottom: 24px;
+	}
+
+	footer button {
+		margin-bottom: 115px;
+		padding: 7px 40px;
+	}
+	footer .adress,
+	footer .phone,
+	footer .social  {
+		margin-bottom: 120px;
+	}
+	footer .adress-img, footer .phone-img, footer .social-icon {
+		margin-bottom: 24px;
+	}
+
+	.cooperation-format .title,
+	.cooperation-format p {
+		max-width: 260px;
+	}
+	.cooperation-format p {
+		margin-bottom: 162px;
+	}
+	.cooperation-format .title-italic {
+		text-align: center;
+  max-width: 350px;
+  margin: 0 auto 64px;
+  font-size: 18px;
+	}
+
+	.cooperation-format {
+		background: url(../img/bg/cooperation-format.png) no-repeat left center;
+   padding-bottom: 0;
+	}
+	.cooperation-format h2 {
+		text-align: center;
+	}
+
+	.button-container {
+	text-align: center;
+	}
+
+	.modern-production {
+  padding: 70px 0 350px;
+  background: url(../img/bg/modern-production-mobile.jpg) no-repeat center top;
+	}
+
+	.modern-production h2 {
+		margin-bottom: 32px;
+		line-height: 56px;
+		font-size: 48px;
+	}
+
+	.modern-production .subtitle {
+		margin-bottom: 50px;
+		line-height: 26px;
+	}
+	footer button {
+		font-size: 16px;
+	}
+
+	.slick-prev:before {
+ background: url(../img/slide-prev.svg) no-repeat center center;
+ width: 30px;
+ height: 50px;
+ left: 20px;
+ top: -70px;
+}
+
+.slick-next:before {
+ background: url(../img/slide-next.svg) no-repeat center center;
+ width: 30px;
+ height: 50px;
+ left: -20px;
+ top: -70px;
+}
+
+.slider-bottle .container-img img.bottles,
+.slider-bottle .container-img img.bottles-small {
+	display: none;
+} 
+
+.slider-bottle .container-img img.bottles-mobile,
+.slider-bottle .container-img img.bottles-small-mobile {
+	display: inline-block;
+}
+
+.slider-bottle {
+	padding: 0 0 150px;
+	background: url(../img/bg/slider-bottle-mobile.jpg) no-repeat center bottom;
+}
+.slider-bottle .subtitle {
+	margin-bottom: 32px;
+}
+
+.my-dots {
+  bottom: 260px;
+  left: 0;
+}
+
+.my-dots li {
+  width: 11px;
+  height: 11px;
+  margin: 0 20px;
+}
+
+.my-dots li button {
+  width: 11px;
+  height: 11px;
+}
+
+.my-dots li button:before {
+  width: 11px;
+  height: 11px;
+  content: url(../img/Ellipse-mobile.svg);
+}
+
+form#order {
+	background: url(../img/bg/order-mobile.png) no-repeat center top;
+	width: 360px;
+	padding: 220px 42px 42px;
+	line-height: 22px;
+	font-size: 18px;
+}
+
+form#order .title {
+	margin-bottom: 32px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+}
+.mfp-close-btn-in .mfp-close {
+	right: inherit;
+	left: 15px;
+	top: 55px;
+	color: #fff!important;
+}
+.mfp-close:active {
+	top: 55px!important;
+}
+form#order button.button-send {
+	margin: 0 auto;
+	display: block;
+	padding: 7px 40px;
+	outline: none;
+}
+.about-company {
+	background: none;
+	height: inherit;
+}
+.about-company .subtitle {
+	margin-bottom: 64px;
+}
+
+.pagingInfo {
+	font-size: 32px;
+ padding: 6px 25px;
+ line-height: 26px;
+ bottom: 20px;
+}
+
+.slider-process .slick-next:before {
+	left: 0;
+	top: -20px;
+}
+
+.slider-process .slick-prev:before {
+	left: 0;
+	top: -20px;
+}
+
+
+}
+
+@media (max-width: 480px) {
+	.section-top {
+		background: url(../img/bg/section-top-mobile.jpg) no-repeat center top;
+		height: 970px;
+	}
+	.modern-production {
+		background: url(../img/bg/modern-production-mobile480.png) no-repeat center top;
+		padding: 100px 0 250px;
+	}
+	.cooperation-format {
+		background: url(../img/bg/cooperation-format-mobile.png) no-repeat center center;
+	}
+
+	footer {
+		background: url(../img/bg/footer-mobile.jpg) no-repeat center bottom;
+		margin-top: 0;
+		padding: 280px 0 0;
+	}
+	footer form {
+		max-width: 360px;
+	}
+
+	.pagingInfo {
+  font-size: 26px;
+  padding: 5px 25px;
+  line-height: 22px;
+  bottom: 20px;
+	}
+	.my-dots {
+  bottom: 290px;
+  left: 0;
+}
+	.slider-bottle .bottles-small-mobile {
+		right: 15px;
+	}
+	.slick-prev:before {
+ left: 0px;
+}
+
+.slick-next:before {
+ left: 0px;
+}
+}
+
+@media (max-width: 440px) {
+	.pagingInfo {
+    bottom: 10px;
+  }
+
+	.modern-production {
+		padding-top: 70px;
+		min-height: 1090px;
+
+	}
+	.modern-production h2 {
+		margin-bottom: 24px;
+		font-size: 42px;
+		line-height: 42px;
+	}
+	.modern-production .subtitle {
+		margin-bottom: 32px;
+		line-height: 23px;
+	}
+		.slider-bottle .bottles-small-mobile {
+		right: 0px;
+	}
+	
+}
